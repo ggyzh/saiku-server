@@ -363,9 +363,9 @@ var SaikuClient = (function() {
 							}
 						}
 					}
-
-					options['render'] = renderMode;
-					options['mode'] = mode;
+					// modify by yzh , no use service feedback
+					//options['render'] = renderMode;
+					//options['mode'] = mode;
 
 					if (options.render in _saikuRendererFactory) {
 						var saikuRenderer = new _saikuRendererFactory[options.render](data, options);

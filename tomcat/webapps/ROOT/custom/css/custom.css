@@ -1,0 +1,225 @@
+.control_buttons{
+    margin : 2px 5px;
+}
+.control_buttons button{
+    margin: 2px;
+    background-color: #f3f3f3;
+    border: 1px solid #f3f3f3;
+    color: #444;
+    padding: 7px 8px 8px 8px;
+    font-size: 14px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.control_buttons button:hover{
+    border-color: #d1d1d1;
+    background-color : #f1f1f1;
+}
+.backwardButton,.forwardButton{   
+    font-size: 14px;
+    color: #444;
+    padding : 6px 8px 8px !important;
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.backwardButton:hover,.forwardButton:hover{
+    /*padding : 5px 7px 9px !important;*/
+    border-color:#ccc;
+    
+}
+
+.control_buttons button:disabled,.backwardButton.disabled,.forwardButton.disabled{
+    cursor: default;
+    /*color: #bbb;*/
+    opacity : 0.3 !important;
+    pointer-events: none;
+}
+
+    /*--Cognos格式 BIS--*/
+.row{
+    vertical-align: top;
+}
+.row .div{
+    text-align: center;
+}
+.workspace_results table th.row_header{
+    background-color: #F6F6F6 !important; 
+}
+.workspace_results table th.col{
+    background-color: #F6F6F6 !important;
+}
+.workspace_results table th.col_null{
+    background-color: #F6F6F6 !important;
+}
+.workspace_results table th.row_total {
+    background-color: #FF !important;
+}
+th.row,th.row_null{
+    background-color: #FF !important;
+}
+th.col.formatCells{
+    font-weight: 600;
+}
+th.row.formatCells,td.data.formatCells{
+    background-color: #FF !important;
+    font-weight: 600 !important;
+    font-size: 11px !important;
+}
+th.row.totalCells,td.data.totalCells{
+    background-color:  #FF !important;
+    font-weight:600 !important;
+    color:#222 !important;
+    font-size: 11px !important;
+}
+/*-- BIS --*/
+
+
+
+/* --冻结表头单元格 BIS -- */
+.fixhead{
+    position: relative;
+}
+/*-- BIS --*/
+
+/*--Cognos分页 BIS--*/
+.table_pagination{
+    overflow: hidden;
+    margin-top: 9px;
+}
+.pagination_control{
+    text-align: left;
+    display: inline-block;
+    width: 38%;
+}
+.workspace_results_info{
+    width:56%;
+    display: inline-block;
+    vertical-align: middle;	
+}
+
+.table_pagination .page_limit{
+    padding:1px;
+
+}
+.table_pagination #current_page{
+    text-align: center;
+	padding: 1px;
+    border-color: rgb(169,169,169);
+}
+.table_pagination #total_pages{
+    margin-right: 5px;
+    margin-left: 5px;
+	vertical-align: middle;
+    font-size: 14px;
+}
+.table_pagination .btn{
+    background-color: transparent;
+    padding:0px 4px;
+    outline: none;
+    border: none;
+    color: #444;
+	height: 26px;
+	vertical-align: middle;
+}
+.table_pagination .btn:focus,.table_pagination .btn:active:focus{
+    outline: none;
+}
+button.btn.first_page, button.btn.last_page{
+    font-size: 14px;
+}
+button.btn.previous_page, button.btn.next_page{
+    font-size: 20px;
+}
+
+/*-- BIS --*/
+
+/*指标搜索框 BIS */
+.searchMeasure{
+    margin:0px 2px 0px 7px;
+}
+input#searchMeasure{
+    margin: 0px;
+    font-size: 11px;
+    padding: 0px 2px;
+    border-color: #aaa;
+    border-radius: 1px;
+}
+/*指标搜索框 BIS */
+/*cognos格式 单元格高光 BIS*/
+/*.workspace_results table tbody tr:hover{
+     background: #A2B4C2 !important;
+}*/
+/*.workspace_results table tbody tr td.data:hover{
+    color:#fff !important;
+    font-weight: 600;
+}*/
+
+.workspace_results table tbody tr td.data:hover{
+    color:#fff !important;
+    background: #365369 !important;
+    text-decoration: underline;
+}*
+
+
+.workspace_results table th.row.highlight,.workspace_results table th.col.highlight{
+    background: #969595 !important;
+    color:#fff;
+
+}
+
+
+
+.workspace_results table tbody tr td.data.highlight{
+    background: #fdffb8 !important;    
+}
+
+
+
+/*.workspace_results table tbody tr:hover td{
+    background: #fdffb8 !important; 
+}*/
+.workspace_results table tbody tr td.data.hover{
+    color:#fff !important;
+    background: #365369 !important;
+    text-decoration: underline;
+    font-weight: 600;
+}
+.workspace_results table tbody tr td.data:hover{
+    color:#fff !important;
+    background: #365369 !important;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+/*cognos格式 单元格高光 BIS*/
+
+/*指标纬度框侧边动态滚动条 BIS*/
+.sidebar_inner.measure_tree,.sidebar_inner.dimension_tree{
+    overflow: auto;
+}
+
+/*指标纬度框侧边动态滚动条 BIS*/
+
+/*图片层级符号 BIS*/
+.fields_list .fields_list_body ul.hierarchy li.d_level a, .fields_list_body.details li.d_level a{
+    padding-left: 0px !important;
+}
+.dimension_tree ul li.d_level a, .measure_tree ul li.d_level a{
+    padding-left:0px !important;
+}
+.dimensionIcon{
+    width:20px;
+    padding:0px 0px 0px 3px !important;
+    display: inline-block;
+}
+
+
+.icon-bullet-red{content : url("../images/bullet_red.png")}
+.icon-bullet-blue{content : url("../images/bullet_blue.png");float:left;}
+
+.measureIcon{padding:0px 0px 0px 3px !important;display: inline-block}
+.icon-ruler{content:url("../images/ruler.png");height:10px;}
+/*图片层级符号 BIS*/
+

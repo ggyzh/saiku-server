@@ -1,0 +1,1085 @@
+2019-01-02 23:41:56,634 WARN  [org.springframework.context.support.PropertySourcesPlaceholderConfigurer] Could not load properties from URL [file:/${ext.prop.dir}applicationContext-spring-security-jdbc.properties]: \${ext.prop.dir}applicationContext-spring-security-jdbc.properties (系统找不到指定的文件。)
+2019-01-02 23:41:56,682 WARN  [org.springframework.context.support.PropertySourcesPlaceholderConfigurer] Could not load properties from URL [file:/${ext.prop.dir}saiku-beans.properties]: \${ext.prop.dir}saiku-beans.properties (系统找不到指定的文件。)
+2019-01-02 23:41:59,023 DEBUG [org.saiku.service.datasource.RepositoryDatasourceManager] file did not exist
+2019-01-02 23:41:59,040 INFO  [org.saiku.repository.JackRabbitRepositoryManager] starting repo
+2019-01-02 23:41:59,427 WARN  [org.apache.jackrabbit.core.util.RepositoryLock] Existing lock file F:\03jishu\project_saas_6h\saiku-server - bi\repository\data\.lock detected. Repository was not shut down properly.
+2019-01-02 23:42:08,019 INFO  [org.saiku.repository.JackRabbitRepositoryManager] repo started
+2019-01-02 23:42:08,019 INFO  [org.saiku.repository.JackRabbitRepositoryManager] logging in
+2019-01-02 23:42:08,684 INFO  [org.saiku.repository.JackRabbitRepositoryManager] logged in
+2019-01-02 23:42:09,637 INFO  [org.saiku.repository.Acl2] Error while reading ACL files at path: /homes/home:admin/sample_reports/average_magnitude_with_quakes.saiku
+2019-01-02 23:42:09,639 INFO  [org.saiku.repository.Acl2] Error while reading ACL files at path: /homes/home:admin/sample_reports/average_mag_and_depth_over_time.saiku
+2019-01-02 23:42:09,641 INFO  [org.saiku.repository.Acl2] Error while reading ACL files at path: /homes/home:admin/sample_reports/filtered_network_example.saiku
+2019-01-02 23:42:09,644 INFO  [org.saiku.repository.Acl2] Error while reading ACL files at path: /homes/home:admin/sample_reports/number_of_quakes_over_time.saiku
+2019-01-02 23:42:09,646 INFO  [org.saiku.repository.Acl2] Error while reading ACL files at path: /homes/home:admin/sample_reports/param_example.saiku
+2019-01-02 23:42:09,647 INFO  [org.saiku.repository.Acl2] Error while reading ACL files at path: /homes/home:admin/sample_reports/yoy_average_depth_vs_max_depth.saiku
+2019-01-02 23:42:09,988 INFO  [org.saiku.repository.JackRabbitRepositoryManager] node added
+2019-01-02 23:42:14,674 DEBUG [org.saiku.web.rest.util.StartupResource] Disabled INFO Logging for com.sun.jersey.spi.container.servlet.WebComponent
+2019-01-02 23:42:32,886 DEBUG [org.saiku.web.service.SessionService] Logging in with [org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN,ROLE_USER]
+2019-01-02 23:42:34,469 DEBUG [org.saiku.web.rest.resources.Query2Resource] TRACK		/query/a62ab2db-ba23-4acb-9c85-a8f163c8a9e0	POST	 tq:false file:null
+2019-01-02 23:42:34,551 DEBUG [org.saiku.web.rest.resources.Query2Resource] TRACK		/query/92c491fc-3a0b-419f-9f9b-a774cbf6e775	POST	 tq:false file:null
+2019-01-02 23:42:34,571 DEBUG [org.saiku.web.rest.resources.Query2Resource] TRACK		/query/bc411a5a-c6a0-43f9-bd78-f8dd41ff01ab	POST	 tq:false file:null
+2019-01-02 23:42:34,548 DEBUG [org.saiku.web.rest.resources.Query2Resource] TRACK		/query/996f7305-9fc3-4995-beea-105da4ad9770	POST	 tq:false file:null
+2019-01-02 23:42:35,707 WARN  [mondrian.rolap.RolapUtil] Mondrian: Warning: JDBC driver sun.jdbc.odbc.JdbcOdbcDriver not found
+2019-01-02 23:42:35,718 WARN  [mondrian.rolap.RolapUtil] Mondrian: Warning: JDBC driver oracle.jdbc.OracleDriver not found
+2019-01-02 23:42:36,331 WARN  [mondrian.rolap.RolapSchema] Model is in legacy format
+2019-01-02 23:42:39,285 DEBUG [mondrian.sql] 0: SqlStatisticsProvider.getTableCardinality: executing sql [select count(*) from `sixh_process`]
+2019-01-02 23:42:39,353 DEBUG [mondrian.sql] 0: , exec 58 ms
+2019-01-02 23:42:39,356 DEBUG [mondrian.sql] 0: , exec+fetch 67 ms, 1 rows
+2019-01-02 23:42:39,785 DEBUG [mondrian.sql] 1: SqlStatisticsProvider.getTableCardinality: executing sql [select count(*) from `t_s_user`]
+2019-01-02 23:42:39,847 DEBUG [mondrian.sql] 1: , exec 60 ms
+2019-01-02 23:42:39,847 DEBUG [mondrian.sql] 1: , exec+fetch 61 ms, 1 rows
+2019-01-02 23:42:40,224 DEBUG [mondrian.sql] 2: SqlStatisticsProvider.getTableCardinality: executing sql [select count(*) from `t_s_depart`]
+2019-01-02 23:42:40,293 DEBUG [mondrian.sql] 2: , exec 68 ms
+2019-01-02 23:42:40,294 DEBUG [mondrian.sql] 2: , exec+fetch 69 ms, 1 rows
+2019-01-02 23:42:40,644 DEBUG [mondrian.sql] 3: SqlStatisticsProvider.getTableCardinality: executing sql [select count(*) from `time_dimension`]
+2019-01-02 23:42:40,711 DEBUG [mondrian.sql] 3: , exec 66 ms
+2019-01-02 23:42:40,712 DEBUG [mondrian.sql] 3: , exec+fetch 67 ms, 1 rows
+2019-01-02 23:42:41,464 DEBUG [mondrian.sql] 4: SqlStatisticsProvider.getTableCardinality: executing sql [select count(*) from `sixh_process`]
+2019-01-02 23:42:41,529 DEBUG [mondrian.sql] 4: , exec 64 ms
+2019-01-02 23:42:41,529 DEBUG [mondrian.sql] 4: , exec+fetch 65 ms, 1 rows
+2019-01-02 23:42:41,886 DEBUG [mondrian.sql] 5: SqlStatisticsProvider.getTableCardinality: executing sql [select count(*) from `t_s_user`]
+2019-01-02 23:42:41,962 DEBUG [mondrian.sql] 5: , exec 74 ms
+2019-01-02 23:42:41,962 DEBUG [mondrian.sql] 5: , exec+fetch 76 ms, 1 rows
+2019-01-02 23:42:42,669 DEBUG [mondrian.sql] 6: SqlStatisticsProvider.getTableCardinality: executing sql [select count(*) from `t_s_depart`]
+2019-01-02 23:42:42,737 DEBUG [mondrian.sql] 6: , exec 67 ms
+2019-01-02 23:42:42,737 DEBUG [mondrian.sql] 6: , exec+fetch 68 ms, 1 rows
+2019-01-02 23:42:43,626 DEBUG [mondrian.sql] 7: SqlStatisticsProvider.getTableCardinality: executing sql [select count(*) from `time_dimension`]
+2019-01-02 23:42:43,883 DEBUG [mondrian.sql] 7: , exec 256 ms
+2019-01-02 23:42:43,883 DEBUG [mondrian.sql] 7: , exec+fetch 256 ms, 1 rows
+2019-01-02 23:42:46,078 INFO  [org.saiku.datasources.connection.SaikuOlapConnection] Catalogs:1
+2019-01-02 23:42:46,081 INFO  [org.saiku.datasources.connection.SaikuOlapConnection] Catalogs:1
+2019-01-02 23:42:46,082 INFO  [org.saiku.datasources.connection.SaikuOlapConnection] Catalogs:1
+2019-01-02 23:42:46,084 INFO  [org.saiku.datasources.connection.SaikuOlapConnection] Catalogs:1
+2019-01-02 23:42:46,138 DEBUG [org.saiku.service.olap.ThinQueryService] Query Start
+2019-01-02 23:42:46,142 DEBUG [org.saiku.service.olap.ThinQueryService] Query Start
+2019-01-02 23:42:46,142 DEBUG [org.saiku.service.olap.ThinQueryService] Query Start
+2019-01-02 23:42:46,142 DEBUG [org.saiku.service.olap.ThinQueryService] Query Start
+2019-01-02 23:42:46,531 INFO  [org.saiku.service.olap.ThinQueryService] RUN#:3	Type:QUERYMODEL:
+WITH
+SET [~ROWS] AS
+    Hierarchize({{[创建时间].[创建时间].[年].Members}, {[创建时间].[创建时间].[月].Members}, {[创建时间].[创建时间].[日].Members}})
+SELECT
+NON EMPTY {[Measures].[用户个数]} ON COLUMNS,
+NON EMPTY [~ROWS] ON ROWS
+FROM [用户分析]
+2019-01-02 23:42:46,531 INFO  [org.saiku.service.olap.ThinQueryService] RUN#:2	Type:QUERYMODEL:
+WITH
+SET [~ROWS] AS
+    Hierarchize({{[时间].[时间].[年份].Members}, {[时间].[时间].[月度].Members}})
+SELECT
+{[Measures].[提报数量]} ON COLUMNS,
+[~ROWS] ON ROWS
+FROM [6源发现分析]
+2019-01-02 23:42:46,536 INFO  [org.saiku.service.olap.ThinQueryService] RUN#:1	Type:QUERYMODEL:
+WITH
+SET [~COLUMNS] AS
+    {[用户状态].[用户状态].[用户状态].Members}
+SET [~ROWS] AS
+    {[创建时间].[创建时间].[创建日期(全部)]}
+SELECT
+NON EMPTY CrossJoin({[Measures].[用户个数]}, [~COLUMNS]) ON COLUMNS,
+NON EMPTY [~ROWS] ON ROWS
+FROM [用户分析]
+2019-01-02 23:42:46,544 INFO  [org.saiku.service.olap.ThinQueryService] RUN#:0	Type:QUERYMODEL:
+WITH
+SET [~COLUMNS] AS
+    Hierarchize({{[时间].[时间].[年份].Members}, {[时间].[时间].[月度].Members}})
+SET [~ROWS] AS
+    {[6源].[6源].[全类别]}
+SELECT
+[~COLUMNS] ON COLUMNS,
+[~ROWS] ON ROWS
+FROM [6源发现分析]
+2019-01-02 23:42:47,385 DEBUG [mondrian.sql] 8: SqlTupleReader.readTuples [[创建时间].[创建时间].[年]]: executing sql [select `c_date`.`y` as `c0` from `time_dimension` as `c_date` group by `c_date`.`y` order by ISNULL(`c_date`.`y`) ASC, `c_date`.`y` ASC]
+2019-01-02 23:42:47,464 DEBUG [mondrian.sql] 8: , exec 75 ms
+2019-01-02 23:42:47,488 DEBUG [mondrian.sql] 8: , exec+fetch 102 ms, 3 rows
+2019-01-02 23:42:47,602 DEBUG [mondrian.sql] 11: SqlTupleReader.readTuples [[创建时间].[创建时间].[月]]: executing sql [select `c_date`.`y` as `c0`, `c_date`.`m` as `c1`, `c_date`.`m_name` as `c2` from `time_dimension` as `c_date` group by `c_date`.`y`, `c_date`.`m`, `c_date`.`m_name` order by ISNULL(`c_date`.`y`) ASC, `c_date`.`y` ASC, ISNULL(`c_date`.`m`) ASC, `c_date`.`m` ASC]
+2019-01-02 23:42:47,664 DEBUG [mondrian.sql] 11: , exec 59 ms
+2019-01-02 23:42:47,670 DEBUG [mondrian.sql] 11: , exec+fetch 68 ms, 36 rows
+2019-01-02 23:42:47,776 DEBUG [mondrian.sql] 12: SqlTupleReader.readTuples [[创建时间].[创建时间].[日]]: executing sql [select `c_date`.`y` as `c0`, `c_date`.`m` as `c1`, `c_date`.`m_name` as `c2`, `c_date`.`d` as `c3` from `time_dimension` as `c_date` group by `c_date`.`y`, `c_date`.`m`, `c_date`.`m_name`, `c_date`.`d` order by ISNULL(`c_date`.`y`) ASC, `c_date`.`y` ASC, ISNULL(`c_date`.`m`) ASC, `c_date`.`m` ASC, ISNULL(`c_date`.`d`) ASC, `c_date`.`d` ASC]
+2019-01-02 23:42:47,895 DEBUG [mondrian.sql] 9: SqlTupleReader.readTuples [[时间].[时间].[年份]]: executing sql [select `time_dimension`.`y` as `c0` from `time_dimension` as `time_dimension` group by `time_dimension`.`y` order by ISNULL(`time_dimension`.`y`) ASC, `time_dimension`.`y` ASC]
+2019-01-02 23:42:47,954 DEBUG [mondrian.sql] 9: , exec 57 ms
+2019-01-02 23:42:47,955 DEBUG [mondrian.sql] 9: , exec+fetch 60 ms, 3 rows
+2019-01-02 23:42:47,975 DEBUG [mondrian.sql] 12: , exec 197 ms
+2019-01-02 23:42:47,981 DEBUG [mondrian.sql] 10: SqlTupleReader.readTuples [[用户状态].[用户状态].[用户状态]]: executing sql [select `t_s_user`.`o_state` as `c0` from `t_s_user` as `t_s_user` group by `t_s_user`.`o_state` order by ISNULL(`t_s_user`.`o_state`) ASC, `t_s_user`.`o_state` ASC]
+2019-01-02 23:42:48,047 DEBUG [mondrian.sql] 10: , exec 66 ms
+2019-01-02 23:42:48,048 DEBUG [mondrian.sql] 10: , exec+fetch 67 ms, 1 rows
+2019-01-02 23:42:48,064 DEBUG [mondrian.sql] 13: SqlTupleReader.readTuples [[时间].[时间].[月度]]: executing sql [select `time_dimension`.`y` as `c0`, `time_dimension`.`m` as `c1`, `time_dimension`.`m_name` as `c2` from `time_dimension` as `time_dimension` group by `time_dimension`.`y`, `time_dimension`.`m`, `time_dimension`.`m_name` order by ISNULL(`time_dimension`.`y`) ASC, `time_dimension`.`y` ASC, ISNULL(`time_dimension`.`m`) ASC, `time_dimension`.`m` ASC]
+2019-01-02 23:42:48,104 DEBUG [mondrian.sql] 12: , exec+fetch 325 ms, 1096 rows
+2019-01-02 23:42:48,126 DEBUG [mondrian.sql] 13: , exec 61 ms
+2019-01-02 23:42:48,131 DEBUG [mondrian.sql] 13: , exec+fetch 67 ms, 36 rows
+2019-01-02 23:42:48,507 DEBUG [mondrian.sql] 14: Segment.load: executing sql [select count(`t_s_user`.`id`) as `m0` from `t_s_user` as `t_s_user`]
+2019-01-02 23:42:48,613 DEBUG [mondrian.sql] 15: SqlStatisticsProvider.getColumnCardinality: executing sql [select count(distinct `y`) from `time_dimension`]
+2019-01-02 23:42:48,671 DEBUG [mondrian.sql] 15: , exec 57 ms
+2019-01-02 23:42:48,671 DEBUG [mondrian.sql] 15: , exec+fetch 58 ms, 1 rows
+2019-01-02 23:42:48,806 DEBUG [mondrian.sql] 16: SqlStatisticsProvider.getColumnCardinality: executing sql [select count(distinct `m`) from `time_dimension`]
+2019-01-02 23:42:48,811 DEBUG [mondrian.sql] 17: Segment.load: executing sql [select `time_dimension`.`y` as `c0`, count(`sixh_process`.`id`) as `m0` from `sixh_process` as `sixh_process`, `time_dimension` as `time_dimension` where `sixh_process`.`found_date` = `time_dimension`.`date` group by `time_dimension`.`y`]
+2019-01-02 23:42:48,866 DEBUG [mondrian.sql] 16: , exec 59 ms
+2019-01-02 23:42:48,866 DEBUG [mondrian.sql] 16: , exec+fetch 60 ms, 1 rows
+2019-01-02 23:42:48,936 DEBUG [mondrian.sql] 14: , exec 428 ms
+2019-01-02 23:42:48,994 DEBUG [mondrian.sql] 14: , exec+fetch 486 ms, 1 rows
+2019-01-02 23:42:49,007 DEBUG [mondrian.sql] 18: Segment.load: executing sql [select `time_dimension`.`y` as `c0`, `time_dimension`.`m` as `c1`, count(`sixh_process`.`id`) as `m0` from `sixh_process` as `sixh_process`, `time_dimension` as `time_dimension` where `sixh_process`.`found_date` = `time_dimension`.`date` group by `time_dimension`.`y`, `time_dimension`.`m`]
+2019-01-02 23:42:49,085 DEBUG [mondrian.sql] 19: Segment.load: executing sql [select `c_date`.`y` as `c0`, count(`t_s_user`.`id`) as `m0` from `t_s_user` as `t_s_user`, `time_dimension` as `c_date` where `t_s_user`.`o_create_date` = `c_date`.`date` group by `c_date`.`y`]
+2019-01-02 23:42:49,646 DEBUG [mondrian.sql] 20: Segment.load: executing sql [select `c_date`.`y` as `c0`, `c_date`.`m` as `c1`, count(`t_s_user`.`id`) as `m0` from `t_s_user` as `t_s_user`, `time_dimension` as `c_date` where `t_s_user`.`o_create_date` = `c_date`.`date` group by `c_date`.`y`, `c_date`.`m`]
+2019-01-02 23:42:49,657 DEBUG [mondrian.sql] 21: SqlStatisticsProvider.getColumnCardinality: executing sql [select count(distinct `d`) from `time_dimension`]
+2019-01-02 23:42:49,714 DEBUG [mondrian.sql] 21: , exec 55 ms
+2019-01-02 23:42:49,714 DEBUG [mondrian.sql] 21: , exec+fetch 57 ms, 1 rows
+2019-01-02 23:42:49,778 DEBUG [mondrian.sql] 17: , exec 966 ms
+2019-01-02 23:42:49,783 DEBUG [mondrian.sql] 17: , exec+fetch 971 ms, 2 rows
+2019-01-02 23:42:49,830 DEBUG [mondrian.sql] 22: Segment.load: executing sql [select `c_date`.`y` as `c0`, `c_date`.`m` as `c1`, `c_date`.`d` as `c2`, count(`t_s_user`.`id`) as `m0` from `t_s_user` as `t_s_user`, `time_dimension` as `c_date` where `t_s_user`.`o_create_date` = `c_date`.`date` group by `c_date`.`y`, `c_date`.`m`, `c_date`.`d`]
+2019-01-02 23:42:50,305 DEBUG [mondrian.sql] 23: SqlStatisticsProvider.getColumnCardinality: executing sql [select count(distinct `o_state`) from `t_s_user`]
+2019-01-02 23:42:50,367 DEBUG [mondrian.sql] 23: , exec 61 ms
+2019-01-02 23:42:50,367 DEBUG [mondrian.sql] 23: , exec+fetch 61 ms, 1 rows
+2019-01-02 23:42:50,504 DEBUG [mondrian.sql] 18: , exec 1496 ms
+2019-01-02 23:42:50,505 DEBUG [mondrian.sql] 18: , exec+fetch 1498 ms, 3 rows
+2019-01-02 23:42:50,518 DEBUG [mondrian.sql] 24: Segment.load: executing sql [select `t_s_user`.`o_state` as `c0`, count(`t_s_user`.`id`) as `m0` from `t_s_user` as `t_s_user` where `t_s_user`.`o_state` = '激活' group by `t_s_user`.`o_state`]
+2019-01-02 23:42:50,525 DEBUG [org.saiku.service.olap.ThinQueryService] Query End
+2019-01-02 23:42:50,526 DEBUG [org.saiku.service.olap.ThinQueryService] Query End
+2019-01-02 23:42:50,568 DEBUG [mondrian.sql] 20: , exec 921 ms
+2019-01-02 23:42:50,569 DEBUG [mondrian.sql] 20: , exec+fetch 923 ms, 2 rows
+2019-01-02 23:42:50,594 DEBUG [mondrian.sql] 24: , exec 75 ms
+2019-01-02 23:42:50,597 DEBUG [mondrian.sql] 24: , exec+fetch 79 ms, 1 rows
+2019-01-02 23:42:50,603 DEBUG [mondrian.sql] 19: , exec 1517 ms
+2019-01-02 23:42:50,604 DEBUG [mondrian.sql] 19: , exec+fetch 1519 ms, 1 rows
+2019-01-02 23:42:50,621 DEBUG [mondrian.sql] 22: , exec 791 ms
+2019-01-02 23:42:50,625 DEBUG [mondrian.sql] 22: , exec+fetch 795 ms, 17 rows
+2019-01-02 23:42:50,661 INFO  [org.saiku.service.olap.ThinQueryService] RUN#:4	Size: 3/37	Execute:	4384ms	Format:	135ms	Totals:	0ms	 Total: 4519ms
+2019-01-02 23:42:50,678 INFO  [org.saiku.service.olap.ThinQueryService] RUN#:4	Size: 37/3	Execute:	4387ms	Format:	153ms	Totals:	0ms	 Total: 4540ms
+2019-01-02 23:42:50,723 DEBUG [org.saiku.service.olap.ThinQueryService] Query End
+2019-01-02 23:42:50,725 INFO  [org.saiku.service.olap.ThinQueryService] RUN#:4	Size: 2/3	Execute:	4581ms	Format:	2ms	Totals:	0ms	 Total: 4583ms
+2019-01-02 23:42:50,849 DEBUG [org.saiku.service.olap.ThinQueryService] Query End
+2019-01-02 23:42:50,869 INFO  [org.saiku.service.olap.ThinQueryService] RUN#:4	Size: 4/18	Execute:	4707ms	Format:	20ms	Totals:	0ms	 Total: 4727ms
+2019-01-02 23:44:32,073 WARN  [mondrian.rolap.RolapSchema] Model is in legacy format
+2019-01-02 23:44:33,626 DEBUG [mondrian.sql] 25: SqlStatisticsProvider.getTableCardinality: executing sql [select count(*) from `inspection_route`]
+2019-01-02 23:44:33,679 DEBUG [mondrian.sql] 25: , exec 53 ms
+2019-01-02 23:44:33,679 DEBUG [mondrian.sql] 25: , exec+fetch 53 ms, 1 rows
+2019-01-02 23:44:33,969 DEBUG [mondrian.sql] 26: SqlStatisticsProvider.getTableCardinality: executing sql [select count(*) from `olap_inspection_titcket`]
+2019-01-02 23:44:34,037 DEBUG [mondrian.sql] 26: , exec 67 ms
+2019-01-02 23:44:34,037 DEBUG [mondrian.sql] 26: , exec+fetch 68 ms, 1 rows
+2019-01-02 23:44:34,585 DEBUG [mondrian.sql] 27: SqlStatisticsProvider.getTableCardinality: executing sql [select count(*) from `inspection_route`]
+2019-01-02 23:44:34,629 DEBUG [mondrian.sql] 27: , exec 43 ms
+2019-01-02 23:44:34,629 DEBUG [mondrian.sql] 27: , exec+fetch 44 ms, 1 rows
+2019-01-02 23:44:34,925 DEBUG [mondrian.sql] 28: SqlStatisticsProvider.getTableCardinality: executing sql [select count(*) from `olap_inspection_titcket`]
+2019-01-02 23:44:34,992 DEBUG [mondrian.sql] 28: , exec 65 ms
+2019-01-02 23:44:34,992 DEBUG [mondrian.sql] 28: , exec+fetch 66 ms, 1 rows
+2019-01-02 23:44:35,016 INFO  [org.saiku.datasources.connection.SaikuOlapConnection] Catalogs:1
+2019-01-02 23:44:44,750 DEBUG [org.saiku.web.rest.resources.Query2Resource] TRACK		/query/B8339996-5189-CBE4-9363-2847515DF8B2	POST	 tq:false file:null
+2019-01-02 23:44:47,969 DEBUG [org.saiku.web.rest.resources.Query2Resource] TRACK		/query/7F07000E-2521-E15A-9B39-62E2EB994F6F	POST	 tq:false file:null
+2019-01-02 23:45:08,101 DEBUG [org.saiku.service.olap.ThinQueryService] Query Start
+2019-01-02 23:45:08,108 INFO  [org.saiku.service.olap.ThinQueryService] RUN#:4	Type:QUERYMODEL:
+WITH
+SET [~ROWS] AS
+    {[时间].[时间].[月度].Members}
+SELECT
+NON EMPTY {[Measures].[提报数量]} ON COLUMNS,
+NON EMPTY [~ROWS] ON ROWS
+FROM [6源发现分析]
+2019-01-02 23:45:08,140 DEBUG [org.saiku.service.olap.ThinQueryService] Query End
+2019-01-02 23:45:08,141 INFO  [org.saiku.service.olap.ThinQueryService] RUN#:5	Size: 2/4	Execute:	39ms	Format:	1ms	Totals:	0ms	 Total: 40ms
+2019-01-02 23:45:16,189 DEBUG [org.saiku.service.olap.ThinQueryService] Query Start
+2019-01-02 23:45:16,201 INFO  [org.saiku.service.olap.ThinQueryService] RUN#:5	Type:QUERYMODEL:
+WITH
+SET [~ROWS] AS
+    Hierarchize({{[时间].[时间].[月度].Members}, {[时间].[时间].[日期].Members}})
+SELECT
+NON EMPTY {[Measures].[提报数量]} ON COLUMNS,
+NON EMPTY [~ROWS] ON ROWS
+FROM [6源发现分析]
+2019-01-02 23:45:16,719 DEBUG [mondrian.sql] 29: SqlTupleReader.readTuples [[时间].[时间].[日期]]: executing sql [select `time_dimension`.`y` as `c0`, `time_dimension`.`m` as `c1`, `time_dimension`.`m_name` as `c2`, `time_dimension`.`d` as `c3` from `time_dimension` as `time_dimension` group by `time_dimension`.`y`, `time_dimension`.`m`, `time_dimension`.`m_name`, `time_dimension`.`d` order by ISNULL(`time_dimension`.`y`) ASC, `time_dimension`.`y` ASC, ISNULL(`time_dimension`.`m`) ASC, `time_dimension`.`m` ASC, ISNULL(`time_dimension`.`d`) ASC, `time_dimension`.`d` ASC]
+2019-01-02 23:45:16,831 DEBUG [mondrian.sql] 29: , exec 111 ms
+2019-01-02 23:45:16,895 DEBUG [mondrian.sql] 29: , exec+fetch 176 ms, 1096 rows
+2019-01-02 23:45:17,095 DEBUG [mondrian.sql] 30: Segment.load: executing sql [select `time_dimension`.`y` as `c0`, `time_dimension`.`m` as `c1`, `time_dimension`.`d` as `c2`, count(`sixh_process`.`id`) as `m0` from `sixh_process` as `sixh_process`, `time_dimension` as `time_dimension` where `sixh_process`.`found_date` = `time_dimension`.`date` group by `time_dimension`.`y`, `time_dimension`.`m`, `time_dimension`.`d`]
+2019-01-02 23:45:17,154 DEBUG [mondrian.sql] 30: , exec 55 ms
+2019-01-02 23:45:17,157 DEBUG [mondrian.sql] 30: , exec+fetch 59 ms, 22 rows
+2019-01-02 23:45:17,216 DEBUG [org.saiku.service.olap.ThinQueryService] Query End
+2019-01-02 23:45:17,226 INFO  [org.saiku.service.olap.ThinQueryService] RUN#:6	Size: 3/23	Execute:	1028ms	Format:	9ms	Totals:	0ms	 Total: 1037ms
+2019-01-02 23:46:26,392 WARN  [org.saiku.service.olap.ThinQueryService] Error checking for DRILLTHROUGH: 7F07000E-2521-E15A-9B39-62E2EB994F6F DRILLTHROUGH MDX:WITH
+SET [~ROWS] AS
+    Hierarchize({{[时间].[时间].[月度].Members}, {[时间].[时间].[日期].now()}})
+SELECT
+NON EMPTY {[Measures].[提报数量]} ON COLUMNS,
+NON EMPTY [~ROWS] ON ROWS
+FROM [6源发现分析]
+mondrian.olap.MondrianException: Mondrian Error:Failed to parse query 'WITH
+SET [~ROWS] AS
+    Hierarchize({{[时间].[时间].[月度].Members}, {[时间].[时间].[日期].now()}})
+SELECT
+NON EMPTY {[Measures].[提报数量]} ON COLUMNS,
+NON EMPTY [~ROWS] ON ROWS
+FROM [6源发现分析]'
+	at mondrian.resource.MondrianResource$_Def0.ex(MondrianResource.java:992)
+	at mondrian.olap.ConnectionBase.parseStatement(ConnectionBase.java:100)
+	at mondrian.rolap.RolapConnection.parseStatement(RolapConnection.java:588)
+	at mondrian.olap4j.SaikuMondrianHelper.isMondrianDrillthrough(SaikuMondrianHelper.java:75)
+	at org.saiku.service.olap.ThinQueryService.isMdxDrillthrough(ThinQueryService.java:499)
+	at org.saiku.web.rest.resources.Query2Resource.execute(Query2Resource.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$TypeOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:185)
+	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:302)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1542)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1473)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1419)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1409)
+	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:409)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:558)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:733)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:316)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:114)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:122)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:168)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:48)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:213)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:205)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:64)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:53)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:213)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:176)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:344)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:261)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.UnsupportedOperationException
+	at java.util.AbstractList.add(AbstractList.java:148)
+	at mondrian.parser.MdxParserImpl.createCall(MdxParserImpl.java:148)
+	at mondrian.parser.MdxParserImpl.segmentOrFuncall(MdxParserImpl.java:718)
+	at mondrian.parser.MdxParserImpl.primary(MdxParserImpl.java:694)
+	at mondrian.parser.MdxParserImpl.factor(MdxParserImpl.java:659)
+	at mondrian.parser.MdxParserImpl.term(MdxParserImpl.java:609)
+	at mondrian.parser.MdxParserImpl.term2(MdxParserImpl.java:568)
+	at mondrian.parser.MdxParserImpl.term3(MdxParserImpl.java:443)
+	at mondrian.parser.MdxParserImpl.term4(MdxParserImpl.java:424)
+	at mondrian.parser.MdxParserImpl.term5(MdxParserImpl.java:386)
+	at mondrian.parser.MdxParserImpl.unaliasedExpression(MdxParserImpl.java:345)
+	at mondrian.parser.MdxParserImpl.expression(MdxParserImpl.java:946)
+	at mondrian.parser.MdxParserImpl.expList(MdxParserImpl.java:1025)
+	at mondrian.parser.MdxParserImpl.atom(MdxParserImpl.java:811)
+	at mondrian.parser.MdxParserImpl.primary(MdxParserImpl.java:682)
+	at mondrian.parser.MdxParserImpl.factor(MdxParserImpl.java:659)
+	at mondrian.parser.MdxParserImpl.term(MdxParserImpl.java:609)
+	at mondrian.parser.MdxParserImpl.term2(MdxParserImpl.java:568)
+	at mondrian.parser.MdxParserImpl.term3(MdxParserImpl.java:443)
+	at mondrian.parser.MdxParserImpl.term4(MdxParserImpl.java:424)
+	at mondrian.parser.MdxParserImpl.term5(MdxParserImpl.java:386)
+	at mondrian.parser.MdxParserImpl.unaliasedExpression(MdxParserImpl.java:345)
+	at mondrian.parser.MdxParserImpl.expression(MdxParserImpl.java:946)
+	at mondrian.parser.MdxParserImpl.expList(MdxParserImpl.java:1038)
+	at mondrian.parser.MdxParserImpl.atom(MdxParserImpl.java:811)
+	at mondrian.parser.MdxParserImpl.primary(MdxParserImpl.java:682)
+	at mondrian.parser.MdxParserImpl.factor(MdxParserImpl.java:659)
+	at mondrian.parser.MdxParserImpl.term(MdxParserImpl.java:609)
+	at mondrian.parser.MdxParserImpl.term2(MdxParserImpl.java:568)
+	at mondrian.parser.MdxParserImpl.term3(MdxParserImpl.java:443)
+	at mondrian.parser.MdxParserImpl.term4(MdxParserImpl.java:424)
+	at mondrian.parser.MdxParserImpl.term5(MdxParserImpl.java:386)
+	at mondrian.parser.MdxParserImpl.unaliasedExpression(MdxParserImpl.java:345)
+	at mondrian.parser.MdxParserImpl.expression(MdxParserImpl.java:946)
+	at mondrian.parser.MdxParserImpl.expressionOrEmpty(MdxParserImpl.java:986)
+	at mondrian.parser.MdxParserImpl.expOrEmptyList(MdxParserImpl.java:1001)
+	at mondrian.parser.MdxParserImpl.atom(MdxParserImpl.java:854)
+	at mondrian.parser.MdxParserImpl.primary(MdxParserImpl.java:682)
+	at mondrian.parser.MdxParserImpl.factor(MdxParserImpl.java:659)
+	at mondrian.parser.MdxParserImpl.term(MdxParserImpl.java:609)
+	at mondrian.parser.MdxParserImpl.term2(MdxParserImpl.java:568)
+	at mondrian.parser.MdxParserImpl.term3(MdxParserImpl.java:443)
+	at mondrian.parser.MdxParserImpl.term4(MdxParserImpl.java:424)
+	at mondrian.parser.MdxParserImpl.term5(MdxParserImpl.java:386)
+	at mondrian.parser.MdxParserImpl.unaliasedExpression(MdxParserImpl.java:345)
+	at mondrian.parser.MdxParserImpl.formulaExpression(MdxParserImpl.java:1309)
+	at mondrian.parser.MdxParserImpl.setSpecification(MdxParserImpl.java:1337)
+	at mondrian.parser.MdxParserImpl.selectStatement(MdxParserImpl.java:1130)
+	at mondrian.parser.MdxParserImpl.statement(MdxParserImpl.java:1074)
+	at mondrian.parser.MdxParserImpl.statementEof(MdxParserImpl.java:188)
+	at mondrian.parser.JavaccParserValidatorImpl.parseInternal(JavaccParserValidatorImpl.java:57)
+	at mondrian.olap.ConnectionBase.parseStatement(ConnectionBase.java:96)
+	... 84 more
+2019-01-02 23:46:26,466 DEBUG [org.saiku.service.olap.ThinQueryService] Query Start
+2019-01-02 23:46:26,466 INFO  [org.saiku.service.olap.ThinQueryService] RUN#:6	Type:MDX:
+WITH
+SET [~ROWS] AS
+    Hierarchize({{[时间].[时间].[月度].Members}, {[时间].[时间].[日期].now()}})
+SELECT
+NON EMPTY {[Measures].[提报数量]} ON COLUMNS,
+NON EMPTY [~ROWS] ON ROWS
+FROM [6源发现分析]
+2019-01-02 23:46:26,468 ERROR [org.saiku.web.rest.resources.Query2Resource] Cannot execute query (org.saiku.olap.query2.ThinQuery@c754d06)
+org.saiku.service.util.exception.SaikuServiceException: Can't execute query: 7F07000E-2521-E15A-9B39-62E2EB994F6F
+	at org.saiku.service.olap.ThinQueryService.execute(ThinQueryService.java:262)
+	at org.saiku.service.olap.ThinQueryService.execute(ThinQueryService.java:222)
+	at org.saiku.service.olap.ThinQueryService.execute(ThinQueryService.java:214)
+	at org.saiku.web.rest.resources.Query2Resource.execute(Query2Resource.java:195)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$TypeOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:185)
+	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:302)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1542)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1473)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1419)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1409)
+	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:409)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:558)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:733)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:316)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:114)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:122)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:168)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:48)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:213)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:205)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:64)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:53)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:213)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:176)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:344)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:261)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.olap4j.OlapException: mondrian gave exception while parsing query
+	at mondrian.olap4j.MondrianOlap4jConnection$Helper.createException(MondrianOlap4jConnection.java:842)
+	at mondrian.olap4j.MondrianOlap4jStatement.parseQuery(MondrianOlap4jStatement.java:375)
+	at mondrian.olap4j.MondrianOlap4jStatement.executeOlapQuery(MondrianOlap4jStatement.java:346)
+	at org.saiku.service.olap.ThinQueryService.executeInternalQuery(ThinQueryService.java:200)
+	at org.saiku.service.olap.ThinQueryService.execute(ThinQueryService.java:244)
+	... 83 more
+Caused by: mondrian.olap.MondrianException: Mondrian Error:Failed to parse query 'WITH
+SET [~ROWS] AS
+    Hierarchize({{[时间].[时间].[月度].Members}, {[时间].[时间].[日期].now()}})
+SELECT
+NON EMPTY {[Measures].[提报数量]} ON COLUMNS,
+NON EMPTY [~ROWS] ON ROWS
+FROM [6源发现分析]'
+	at mondrian.resource.MondrianResource$_Def0.ex(MondrianResource.java:992)
+	at mondrian.olap.ConnectionBase.parseStatement(ConnectionBase.java:100)
+	at mondrian.olap4j.MondrianOlap4jStatement$1.execute(MondrianOlap4jStatement.java:362)
+	at mondrian.olap4j.MondrianOlap4jStatement$1.execute(MondrianOlap4jStatement.java:359)
+	at mondrian.server.Locus.execute(Locus.java:88)
+	at mondrian.server.Locus.execute(Locus.java:73)
+	at mondrian.olap4j.MondrianOlap4jStatement.parseQuery(MondrianOlap4jStatement.java:356)
+	... 86 more
+Caused by: java.lang.UnsupportedOperationException
+	at java.util.AbstractList.add(AbstractList.java:148)
+	at mondrian.parser.MdxParserImpl.createCall(MdxParserImpl.java:148)
+	at mondrian.parser.MdxParserImpl.segmentOrFuncall(MdxParserImpl.java:718)
+	at mondrian.parser.MdxParserImpl.primary(MdxParserImpl.java:694)
+	at mondrian.parser.MdxParserImpl.factor(MdxParserImpl.java:659)
+	at mondrian.parser.MdxParserImpl.term(MdxParserImpl.java:609)
+	at mondrian.parser.MdxParserImpl.term2(MdxParserImpl.java:568)
+	at mondrian.parser.MdxParserImpl.term3(MdxParserImpl.java:443)
+	at mondrian.parser.MdxParserImpl.term4(MdxParserImpl.java:424)
+	at mondrian.parser.MdxParserImpl.term5(MdxParserImpl.java:386)
+	at mondrian.parser.MdxParserImpl.unaliasedExpression(MdxParserImpl.java:345)
+	at mondrian.parser.MdxParserImpl.expression(MdxParserImpl.java:946)
+	at mondrian.parser.MdxParserImpl.expList(MdxParserImpl.java:1025)
+	at mondrian.parser.MdxParserImpl.atom(MdxParserImpl.java:811)
+	at mondrian.parser.MdxParserImpl.primary(MdxParserImpl.java:682)
+	at mondrian.parser.MdxParserImpl.factor(MdxParserImpl.java:659)
+	at mondrian.parser.MdxParserImpl.term(MdxParserImpl.java:609)
+	at mondrian.parser.MdxParserImpl.term2(MdxParserImpl.java:568)
+	at mondrian.parser.MdxParserImpl.term3(MdxParserImpl.java:443)
+	at mondrian.parser.MdxParserImpl.term4(MdxParserImpl.java:424)
+	at mondrian.parser.MdxParserImpl.term5(MdxParserImpl.java:386)
+	at mondrian.parser.MdxParserImpl.unaliasedExpression(MdxParserImpl.java:345)
+	at mondrian.parser.MdxParserImpl.expression(MdxParserImpl.java:946)
+	at mondrian.parser.MdxParserImpl.expList(MdxParserImpl.java:1038)
+	at mondrian.parser.MdxParserImpl.atom(MdxParserImpl.java:811)
+	at mondrian.parser.MdxParserImpl.primary(MdxParserImpl.java:682)
+	at mondrian.parser.MdxParserImpl.factor(MdxParserImpl.java:659)
+	at mondrian.parser.MdxParserImpl.term(MdxParserImpl.java:609)
+	at mondrian.parser.MdxParserImpl.term2(MdxParserImpl.java:568)
+	at mondrian.parser.MdxParserImpl.term3(MdxParserImpl.java:443)
+	at mondrian.parser.MdxParserImpl.term4(MdxParserImpl.java:424)
+	at mondrian.parser.MdxParserImpl.term5(MdxParserImpl.java:386)
+	at mondrian.parser.MdxParserImpl.unaliasedExpression(MdxParserImpl.java:345)
+	at mondrian.parser.MdxParserImpl.expression(MdxParserImpl.java:946)
+	at mondrian.parser.MdxParserImpl.expressionOrEmpty(MdxParserImpl.java:986)
+	at mondrian.parser.MdxParserImpl.expOrEmptyList(MdxParserImpl.java:1001)
+	at mondrian.parser.MdxParserImpl.atom(MdxParserImpl.java:854)
+	at mondrian.parser.MdxParserImpl.primary(MdxParserImpl.java:682)
+	at mondrian.parser.MdxParserImpl.factor(MdxParserImpl.java:659)
+	at mondrian.parser.MdxParserImpl.term(MdxParserImpl.java:609)
+	at mondrian.parser.MdxParserImpl.term2(MdxParserImpl.java:568)
+	at mondrian.parser.MdxParserImpl.term3(MdxParserImpl.java:443)
+	at mondrian.parser.MdxParserImpl.term4(MdxParserImpl.java:424)
+	at mondrian.parser.MdxParserImpl.term5(MdxParserImpl.java:386)
+	at mondrian.parser.MdxParserImpl.unaliasedExpression(MdxParserImpl.java:345)
+	at mondrian.parser.MdxParserImpl.formulaExpression(MdxParserImpl.java:1309)
+	at mondrian.parser.MdxParserImpl.setSpecification(MdxParserImpl.java:1337)
+	at mondrian.parser.MdxParserImpl.selectStatement(MdxParserImpl.java:1130)
+	at mondrian.parser.MdxParserImpl.statement(MdxParserImpl.java:1074)
+	at mondrian.parser.MdxParserImpl.statementEof(MdxParserImpl.java:188)
+	at mondrian.parser.JavaccParserValidatorImpl.parseInternal(JavaccParserValidatorImpl.java:57)
+	at mondrian.olap.ConnectionBase.parseStatement(ConnectionBase.java:96)
+	... 91 more
+2019-01-02 23:53:07,204 WARN  [org.saiku.service.olap.ThinQueryService] Error checking for DRILLTHROUGH: 7F07000E-2521-E15A-9B39-62E2EB994F6F DRILLTHROUGH MDX:WITH
+SET [~ROWS] AS
+    Hierarchize({{[时间].[时间].[月度].Members}, {ClosingPeriod([时间].[时间].[日期], [时间].[时间].[日期].DefaultMember)})
+SELECT
+NON EMPTY {[Measures].[提报数量]} ON COLUMNS,
+NON EMPTY [~ROWS] ON ROWS
+FROM [6源发现分析]
+mondrian.olap.MondrianException: Mondrian Error:Failed to parse query 'WITH
+SET [~ROWS] AS
+    Hierarchize({{[时间].[时间].[月度].Members}, {ClosingPeriod([时间].[时间].[日期], [时间].[时间].[日期].DefaultMember)})
+SELECT
+NON EMPTY {[Measures].[提报数量]} ON COLUMNS,
+NON EMPTY [~ROWS] ON ROWS
+FROM [6源发现分析]'
+	at mondrian.resource.MondrianResource$_Def0.ex(MondrianResource.java:992)
+	at mondrian.olap.ConnectionBase.parseStatement(ConnectionBase.java:100)
+	at mondrian.rolap.RolapConnection.parseStatement(RolapConnection.java:588)
+	at mondrian.olap4j.SaikuMondrianHelper.isMondrianDrillthrough(SaikuMondrianHelper.java:75)
+	at org.saiku.service.olap.ThinQueryService.isMdxDrillthrough(ThinQueryService.java:499)
+	at org.saiku.web.rest.resources.Query2Resource.execute(Query2Resource.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$TypeOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:185)
+	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:302)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1542)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1473)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1419)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1409)
+	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:409)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:558)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:733)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:316)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:114)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:122)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:168)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:48)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:213)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:205)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:64)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:53)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:213)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:176)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:344)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:261)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: mondrian.olap.MondrianException: Mondrian Error:Internal error: While parsing WITH
+SET [~ROWS] AS
+    Hierarchize({{[时间].[时间].[月度].Members}, {ClosingPeriod([时间].[时间].[日期], [时间].[时间].[日期].DefaultMember)})
+SELECT
+NON EMPTY {[Measures].[提报数量]} ON COLUMNS,
+NON EMPTY [~ROWS] ON ROWS
+FROM [6源发现分析]
+	at mondrian.resource.MondrianResource$_Def0.ex(MondrianResource.java:992)
+	at mondrian.olap.Util.newInternal(Util.java:2543)
+	at mondrian.olap.Util.newError(Util.java:2559)
+	at mondrian.parser.JavaccParserValidatorImpl.convertException(JavaccParserValidatorImpl.java:110)
+	at mondrian.parser.JavaccParserValidatorImpl.parseInternal(JavaccParserValidatorImpl.java:59)
+	at mondrian.olap.ConnectionBase.parseStatement(ConnectionBase.java:96)
+	... 84 more
+Caused by: mondrian.olap.MondrianException: Mondrian Error:Syntax error at line 3, column 105, token ')'
+	at mondrian.parser.JavaccParserValidatorImpl.convertException(JavaccParserValidatorImpl.java:99)
+	... 86 more
+2019-01-02 23:53:07,262 DEBUG [org.saiku.service.olap.ThinQueryService] Query Start
+2019-01-02 23:53:07,264 INFO  [org.saiku.service.olap.ThinQueryService] RUN#:7	Type:MDX:
+WITH
+SET [~ROWS] AS
+    Hierarchize({{[时间].[时间].[月度].Members}, {ClosingPeriod([时间].[时间].[日期], [时间].[时间].[日期].DefaultMember)})
+SELECT
+NON EMPTY {[Measures].[提报数量]} ON COLUMNS,
+NON EMPTY [~ROWS] ON ROWS
+FROM [6源发现分析]
+2019-01-02 23:53:07,265 ERROR [org.saiku.web.rest.resources.Query2Resource] Cannot execute query (org.saiku.olap.query2.ThinQuery@20f2e472)
+org.saiku.service.util.exception.SaikuServiceException: Can't execute query: 7F07000E-2521-E15A-9B39-62E2EB994F6F
+	at org.saiku.service.olap.ThinQueryService.execute(ThinQueryService.java:262)
+	at org.saiku.service.olap.ThinQueryService.execute(ThinQueryService.java:222)
+	at org.saiku.service.olap.ThinQueryService.execute(ThinQueryService.java:214)
+	at org.saiku.web.rest.resources.Query2Resource.execute(Query2Resource.java:195)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$TypeOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:185)
+	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:302)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1542)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1473)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1419)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1409)
+	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:409)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:558)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:733)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:316)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:114)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:122)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:168)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:48)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:213)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:205)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:64)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:53)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:213)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:176)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:344)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:261)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.olap4j.OlapException: mondrian gave exception while parsing query
+	at mondrian.olap4j.MondrianOlap4jConnection$Helper.createException(MondrianOlap4jConnection.java:842)
+	at mondrian.olap4j.MondrianOlap4jStatement.parseQuery(MondrianOlap4jStatement.java:375)
+	at mondrian.olap4j.MondrianOlap4jStatement.executeOlapQuery(MondrianOlap4jStatement.java:346)
+	at org.saiku.service.olap.ThinQueryService.executeInternalQuery(ThinQueryService.java:200)
+	at org.saiku.service.olap.ThinQueryService.execute(ThinQueryService.java:244)
+	... 83 more
+Caused by: mondrian.olap.MondrianException: Mondrian Error:Failed to parse query 'WITH
+SET [~ROWS] AS
+    Hierarchize({{[时间].[时间].[月度].Members}, {ClosingPeriod([时间].[时间].[日期], [时间].[时间].[日期].DefaultMember)})
+SELECT
+NON EMPTY {[Measures].[提报数量]} ON COLUMNS,
+NON EMPTY [~ROWS] ON ROWS
+FROM [6源发现分析]'
+	at mondrian.resource.MondrianResource$_Def0.ex(MondrianResource.java:992)
+	at mondrian.olap.ConnectionBase.parseStatement(ConnectionBase.java:100)
+	at mondrian.olap4j.MondrianOlap4jStatement$1.execute(MondrianOlap4jStatement.java:362)
+	at mondrian.olap4j.MondrianOlap4jStatement$1.execute(MondrianOlap4jStatement.java:359)
+	at mondrian.server.Locus.execute(Locus.java:88)
+	at mondrian.server.Locus.execute(Locus.java:73)
+	at mondrian.olap4j.MondrianOlap4jStatement.parseQuery(MondrianOlap4jStatement.java:356)
+	... 86 more
+Caused by: mondrian.olap.MondrianException: Mondrian Error:Internal error: While parsing WITH
+SET [~ROWS] AS
+    Hierarchize({{[时间].[时间].[月度].Members}, {ClosingPeriod([时间].[时间].[日期], [时间].[时间].[日期].DefaultMember)})
+SELECT
+NON EMPTY {[Measures].[提报数量]} ON COLUMNS,
+NON EMPTY [~ROWS] ON ROWS
+FROM [6源发现分析]
+	at mondrian.resource.MondrianResource$_Def0.ex(MondrianResource.java:992)
+	at mondrian.olap.Util.newInternal(Util.java:2543)
+	at mondrian.olap.Util.newError(Util.java:2559)
+	at mondrian.parser.JavaccParserValidatorImpl.convertException(JavaccParserValidatorImpl.java:110)
+	at mondrian.parser.JavaccParserValidatorImpl.parseInternal(JavaccParserValidatorImpl.java:59)
+	at mondrian.olap.ConnectionBase.parseStatement(ConnectionBase.java:96)
+	... 91 more
+Caused by: mondrian.olap.MondrianException: Mondrian Error:Syntax error at line 3, column 105, token ')'
+	at mondrian.parser.JavaccParserValidatorImpl.convertException(JavaccParserValidatorImpl.java:99)
+	... 93 more
+2019-01-02 23:54:30,982 DEBUG [org.saiku.service.olap.ThinQueryService] Query Start
+2019-01-02 23:54:30,983 INFO  [org.saiku.service.olap.ThinQueryService] RUN#:8	Type:MDX:
+WITH
+SET [~ROWS] AS
+    Hierarchize({{[时间].[时间].[月度].Members}, {ClosingPeriod([时间].[时间].[日期], [时间].[时间].[日期].DefaultMember)}})
+SELECT
+NON EMPTY {[Measures].[提报数量]} ON COLUMNS,
+NON EMPTY [~ROWS] ON ROWS
+FROM [6源发现分析]
+
+2019-01-02 23:54:31,671 DEBUG [mondrian.sql] 31: SqlMemberSource.getMemberChildren: executing sql [select `time_dimension`.`y` as `c0` from `time_dimension` as `time_dimension` group by `time_dimension`.`y` order by `time_dimension`.`y` ASC]
+2019-01-02 23:54:31,722 DEBUG [mondrian.sql] 31: , exec 50 ms
+2019-01-02 23:54:31,723 DEBUG [mondrian.sql] 31: , exec+fetch 52 ms, 3 rows
+2019-01-02 23:54:31,814 DEBUG [mondrian.sql] 32: SqlMemberSource.getMemberChildren: executing sql [select `time_dimension`.`m` as `c0`, `time_dimension`.`y` as `c1`, `time_dimension`.`m_name` as `c2` from `time_dimension` as `time_dimension` where (`time_dimension`.`y` = 2020) group by `time_dimension`.`m`, `time_dimension`.`y`, `time_dimension`.`m_name` order by `time_dimension`.`m` ASC]
+2019-01-02 23:54:31,882 DEBUG [mondrian.sql] 32: , exec 66 ms
+2019-01-02 23:54:31,882 DEBUG [mondrian.sql] 32: , exec+fetch 67 ms, 12 rows
+2019-01-02 23:54:31,987 DEBUG [mondrian.sql] 33: SqlMemberSource.getMemberChildren: executing sql [select `time_dimension`.`d` as `c0`, `time_dimension`.`y` as `c1`, `time_dimension`.`m` as `c2` from `time_dimension` as `time_dimension` where (`time_dimension`.`y` = 2020 and `time_dimension`.`m` = 12) group by `time_dimension`.`d`, `time_dimension`.`y`, `time_dimension`.`m` order by `time_dimension`.`d` ASC]
+2019-01-02 23:54:32,041 DEBUG [mondrian.sql] 33: , exec 53 ms
+2019-01-02 23:54:32,042 DEBUG [mondrian.sql] 33: , exec+fetch 55 ms, 31 rows
+2019-01-02 23:54:32,047 DEBUG [org.saiku.service.olap.ThinQueryService] Query End
+2019-01-02 23:54:32,064 INFO  [org.saiku.service.olap.ThinQueryService] RUN#:9	Size: 2/4	Execute:	1065ms	Format:	17ms	Totals:	0ms	 Total: 1082ms
+2019-01-02 23:58:13,459 WARN  [org.saiku.service.olap.ThinQueryService] Error checking for DRILLTHROUGH: 7F07000E-2521-E15A-9B39-62E2EB994F6F DRILLTHROUGH MDX:
+
+WITH
+SET [~ROWS] AS
+    Hierarchize({{[时间].[时间].[月度].Members}, {StrToMember("[时间].[时间].[日期].[" + Format(now(), "YYYYMMDD") + "]")}})
+SELECT
+NON EMPTY {[Measures].[提报数量]} ON COLUMNS,
+NON EMPTY [~ROWS] ON ROWS
+FROM [6源发现分析]
+mondrian.olap.MondrianException: Mondrian Error:Failed to parse query '
+
+WITH
+SET [~ROWS] AS
+    Hierarchize({{[时间].[时间].[月度].Members}, {StrToMember("[时间].[时间].[日期].[" + Format(now(), "YYYYMMDD") + "]")}})
+SELECT
+NON EMPTY {[Measures].[提报数量]} ON COLUMNS,
+NON EMPTY [~ROWS] ON ROWS
+FROM [6源发现分析]'
+	at mondrian.resource.MondrianResource$_Def0.ex(MondrianResource.java:992)
+	at mondrian.olap.ConnectionBase.parseStatement(ConnectionBase.java:100)
+	at mondrian.rolap.RolapConnection.parseStatement(RolapConnection.java:588)
+	at mondrian.olap4j.SaikuMondrianHelper.isMondrianDrillthrough(SaikuMondrianHelper.java:75)
+	at org.saiku.service.olap.ThinQueryService.isMdxDrillthrough(ThinQueryService.java:499)
+	at org.saiku.web.rest.resources.Query2Resource.execute(Query2Resource.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$TypeOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:185)
+	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:302)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1542)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1473)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1419)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1409)
+	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:409)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:558)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:733)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:316)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:114)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:122)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:168)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:48)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:213)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:205)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:64)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:53)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:213)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:176)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:344)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:261)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: mondrian.olap.MondrianException: Mondrian Error:No function matches signature '<String> + <String>'
+	at mondrian.resource.MondrianResource$_Def0.ex(MondrianResource.java:989)
+	at mondrian.olap.ValidatorImpl.getDef(ValidatorImpl.java:205)
+	at mondrian.olap.fun.FunUtil.resolveFunArgs(FunUtil.java:1998)
+	at mondrian.mdx.UnresolvedFunCall.accept(UnresolvedFunCall.java:102)
+	at mondrian.olap.ValidatorImpl.validate(ValidatorImpl.java:79)
+	at mondrian.olap.fun.FunUtil.resolveFunArgs(FunUtil.java:1995)
+	at mondrian.mdx.UnresolvedFunCall.accept(UnresolvedFunCall.java:102)
+	at mondrian.olap.ValidatorImpl.validate(ValidatorImpl.java:79)
+	at mondrian.olap.fun.FunUtil.resolveFunArgs(FunUtil.java:1995)
+	at mondrian.mdx.UnresolvedFunCall.accept(UnresolvedFunCall.java:102)
+	at mondrian.olap.ValidatorImpl.validate(ValidatorImpl.java:79)
+	at mondrian.olap.fun.FunUtil.resolveFunArgs(FunUtil.java:1995)
+	at mondrian.mdx.UnresolvedFunCall.accept(UnresolvedFunCall.java:102)
+	at mondrian.olap.ValidatorImpl.validate(ValidatorImpl.java:79)
+	at mondrian.olap.fun.FunUtil.resolveFunArgs(FunUtil.java:1995)
+	at mondrian.mdx.UnresolvedFunCall.accept(UnresolvedFunCall.java:102)
+	at mondrian.olap.ValidatorImpl.validate(ValidatorImpl.java:79)
+	at mondrian.olap.fun.FunUtil.resolveFunArgs(FunUtil.java:1995)
+	at mondrian.mdx.UnresolvedFunCall.accept(UnresolvedFunCall.java:102)
+	at mondrian.olap.ValidatorImpl.validate(ValidatorImpl.java:79)
+	at mondrian.olap.Formula.accept(Formula.java:105)
+	at mondrian.olap.ValidatorImpl.validate(ValidatorImpl.java:155)
+	at mondrian.olap.Query.resolve(Query.java:552)
+	at mondrian.olap.Query.resolve(Query.java:445)
+	at mondrian.olap.Query.<init>(Query.java:199)
+	at mondrian.olap.Query.<init>(Query.java:160)
+	at mondrian.parser.QueryPartFactoryImpl.makeQuery(QueryPartFactoryImpl.java:38)
+	at mondrian.parser.MdxParserImpl.selectStatement(MdxParserImpl.java:1241)
+	at mondrian.parser.MdxParserImpl.statement(MdxParserImpl.java:1074)
+	at mondrian.parser.MdxParserImpl.statementEof(MdxParserImpl.java:188)
+	at mondrian.parser.JavaccParserValidatorImpl.parseInternal(JavaccParserValidatorImpl.java:57)
+	at mondrian.olap.ConnectionBase.parseStatement(ConnectionBase.java:96)
+	... 84 more
+2019-01-02 23:58:13,590 DEBUG [org.saiku.service.olap.ThinQueryService] Query Start
+2019-01-02 23:58:13,591 INFO  [org.saiku.service.olap.ThinQueryService] RUN#:9	Type:MDX:
+
+
+WITH
+SET [~ROWS] AS
+    Hierarchize({{[时间].[时间].[月度].Members}, {StrToMember("[时间].[时间].[日期].[" + Format(now(), "YYYYMMDD") + "]")}})
+SELECT
+NON EMPTY {[Measures].[提报数量]} ON COLUMNS,
+NON EMPTY [~ROWS] ON ROWS
+FROM [6源发现分析]
+2019-01-02 23:58:13,594 ERROR [org.saiku.web.rest.resources.Query2Resource] Cannot execute query (org.saiku.olap.query2.ThinQuery@51384a15)
+org.saiku.service.util.exception.SaikuServiceException: Can't execute query: 7F07000E-2521-E15A-9B39-62E2EB994F6F
+	at org.saiku.service.olap.ThinQueryService.execute(ThinQueryService.java:262)
+	at org.saiku.service.olap.ThinQueryService.execute(ThinQueryService.java:222)
+	at org.saiku.service.olap.ThinQueryService.execute(ThinQueryService.java:214)
+	at org.saiku.web.rest.resources.Query2Resource.execute(Query2Resource.java:195)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$TypeOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:185)
+	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:302)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1542)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1473)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1419)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1409)
+	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:409)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:558)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:733)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:316)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:114)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:122)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:168)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:48)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:213)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:205)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:64)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:53)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:213)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:176)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:344)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:261)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.olap4j.OlapException: mondrian gave exception while parsing query
+	at mondrian.olap4j.MondrianOlap4jConnection$Helper.createException(MondrianOlap4jConnection.java:842)
+	at mondrian.olap4j.MondrianOlap4jStatement.parseQuery(MondrianOlap4jStatement.java:375)
+	at mondrian.olap4j.MondrianOlap4jStatement.executeOlapQuery(MondrianOlap4jStatement.java:346)
+	at org.saiku.service.olap.ThinQueryService.executeInternalQuery(ThinQueryService.java:200)
+	at org.saiku.service.olap.ThinQueryService.execute(ThinQueryService.java:244)
+	... 83 more
+Caused by: mondrian.olap.MondrianException: Mondrian Error:Failed to parse query '
+
+WITH
+SET [~ROWS] AS
+    Hierarchize({{[时间].[时间].[月度].Members}, {StrToMember("[时间].[时间].[日期].[" + Format(now(), "YYYYMMDD") + "]")}})
+SELECT
+NON EMPTY {[Measures].[提报数量]} ON COLUMNS,
+NON EMPTY [~ROWS] ON ROWS
+FROM [6源发现分析]'
+	at mondrian.resource.MondrianResource$_Def0.ex(MondrianResource.java:992)
+	at mondrian.olap.ConnectionBase.parseStatement(ConnectionBase.java:100)
+	at mondrian.olap4j.MondrianOlap4jStatement$1.execute(MondrianOlap4jStatement.java:362)
+	at mondrian.olap4j.MondrianOlap4jStatement$1.execute(MondrianOlap4jStatement.java:359)
+	at mondrian.server.Locus.execute(Locus.java:88)
+	at mondrian.server.Locus.execute(Locus.java:73)
+	at mondrian.olap4j.MondrianOlap4jStatement.parseQuery(MondrianOlap4jStatement.java:356)
+	... 86 more
+Caused by: mondrian.olap.MondrianException: Mondrian Error:No function matches signature '<String> + <String>'
+	at mondrian.resource.MondrianResource$_Def0.ex(MondrianResource.java:989)
+	at mondrian.olap.ValidatorImpl.getDef(ValidatorImpl.java:205)
+	at mondrian.olap.fun.FunUtil.resolveFunArgs(FunUtil.java:1998)
+	at mondrian.mdx.UnresolvedFunCall.accept(UnresolvedFunCall.java:102)
+	at mondrian.olap.ValidatorImpl.validate(ValidatorImpl.java:79)
+	at mondrian.olap.fun.FunUtil.resolveFunArgs(FunUtil.java:1995)
+	at mondrian.mdx.UnresolvedFunCall.accept(UnresolvedFunCall.java:102)
+	at mondrian.olap.ValidatorImpl.validate(ValidatorImpl.java:79)
+	at mondrian.olap.fun.FunUtil.resolveFunArgs(FunUtil.java:1995)
+	at mondrian.mdx.UnresolvedFunCall.accept(UnresolvedFunCall.java:102)
+	at mondrian.olap.ValidatorImpl.validate(ValidatorImpl.java:79)
+	at mondrian.olap.fun.FunUtil.resolveFunArgs(FunUtil.java:1995)
+	at mondrian.mdx.UnresolvedFunCall.accept(UnresolvedFunCall.java:102)
+	at mondrian.olap.ValidatorImpl.validate(ValidatorImpl.java:79)
+	at mondrian.olap.fun.FunUtil.resolveFunArgs(FunUtil.java:1995)
+	at mondrian.mdx.UnresolvedFunCall.accept(UnresolvedFunCall.java:102)
+	at mondrian.olap.ValidatorImpl.validate(ValidatorImpl.java:79)
+	at mondrian.olap.fun.FunUtil.resolveFunArgs(FunUtil.java:1995)
+	at mondrian.mdx.UnresolvedFunCall.accept(UnresolvedFunCall.java:102)
+	at mondrian.olap.ValidatorImpl.validate(ValidatorImpl.java:79)
+	at mondrian.olap.Formula.accept(Formula.java:105)
+	at mondrian.olap.ValidatorImpl.validate(ValidatorImpl.java:155)
+	at mondrian.olap.Query.resolve(Query.java:552)
+	at mondrian.olap.Query.resolve(Query.java:445)
+	at mondrian.olap.Query.<init>(Query.java:199)
+	at mondrian.olap.Query.<init>(Query.java:160)
+	at mondrian.parser.QueryPartFactoryImpl.makeQuery(QueryPartFactoryImpl.java:38)
+	at mondrian.parser.MdxParserImpl.selectStatement(MdxParserImpl.java:1241)
+	at mondrian.parser.MdxParserImpl.statement(MdxParserImpl.java:1074)
+	at mondrian.parser.MdxParserImpl.statementEof(MdxParserImpl.java:188)
+	at mondrian.parser.JavaccParserValidatorImpl.parseInternal(JavaccParserValidatorImpl.java:57)
+	at mondrian.olap.ConnectionBase.parseStatement(ConnectionBase.java:96)
+	... 91 more
